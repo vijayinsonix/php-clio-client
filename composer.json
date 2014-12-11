@@ -1,0 +1,16 @@
+{
+    "name": "novusjuris/php-clio-client",
+    "description": "Extension library for clio with oAuth 2 authentication",
+    "keywords": ["oauth", "authentication", "clio", "clioapi", "php"],
+    "license": "All Rights Reserved",
+    "require": {
+        "php": ">=5.4.0",
+        "lusitanian/oauth": "0.3.5"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "classmap": ["lib/"]        
+    }
+}
